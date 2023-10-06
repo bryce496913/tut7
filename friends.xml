@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="20.0.2" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="templatesTutorial.Person">
+    <void property="address">
+     <object class="templatesTutorial.Address">
+      <void property="number">
+       <int>100</int>
+      </void>
+      <void property="street">
+       <string>Main Street</string>
+      </void>
+      <void property="town">
+       <string>Palmerston North</string>
+      </void>
+     </object>
+    </void>
+    <void property="firstName">
+     <string>Tim</string>
+    </void>
+    <void property="name">
+     <string>MacDonald</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="templatesTutorial.Person">
+    <void property="address">
+     <object class="templatesTutorial.Address">
+      <void property="number">
+       <int>42</int>
+      </void>
+      <void property="street">
+       <string>Cuba Street</string>
+      </void>
+      <void property="town">
+       <string>Palmerston North</string>
+      </void>
+     </object>
+    </void>
+    <void property="firstName">
+     <string>Tom</string>
+    </void>
+    <void property="name">
+     <string>Smith</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="templatesTutorial.Person">
+    <void property="address">
+     <object class="templatesTutorial.Address">
+      <void property="number">
+       <int>3</int>
+      </void>
+      <void property="street">
+       <string>Worchester Street</string>
+      </void>
+      <void property="town">
+       <string>Palmerston North</string>
+      </void>
+     </object>
+    </void>
+    <void property="firstName">
+     <string>Amy</string>
+    </void>
+    <void property="gender">
+     <object class="java.lang.Enum" id="Gender0" method="valueOf">
+      <class>templatesTutorial.Gender</class>
+      <string>FEMALE</string>
+     </object>
+    </void>
+    <void property="name">
+     <string>Turner</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="templatesTutorial.Person">
+    <void property="address">
+     <object class="templatesTutorial.Address">
+      <void property="number">
+       <int>4</int>
+      </void>
+      <void property="street">
+       <string>Manchester Street</string>
+      </void>
+      <void property="town">
+       <string>Feilding</string>
+      </void>
+     </object>
+    </void>
+    <void property="firstName">
+     <string>Anne</string>
+    </void>
+    <void property="gender">
+     <object idref="Gender0"/>
+    </void>
+    <void property="name">
+     <string>O&apos;Brian</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="templatesTutorial.Person">
+    <void property="address">
+     <object class="templatesTutorial.Address">
+      <void property="number">
+       <int>55</int>
+      </void>
+      <void property="street">
+       <string>Salisbury Street</string>
+      </void>
+      <void property="town">
+       <string>Ashhurst</string>
+      </void>
+     </object>
+    </void>
+    <void property="firstName">
+     <string>Fred</string>
+    </void>
+    <void property="name">
+     <string>Miller</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="templatesTutorial.Person">
+    <void property="address">
+     <object class="templatesTutorial.Address">
+      <void property="number">
+       <int>77</int>
+      </void>
+      <void property="street">
+       <string>Main Street</string>
+      </void>
+      <void property="town">
+       <string>Palmerston North</string>
+      </void>
+     </object>
+    </void>
+    <void property="firstName">
+     <string>Max</string>
+    </void>
+    <void property="name">
+     <string>Meyer</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="templatesTutorial.Person">
+    <void property="address">
+     <object class="templatesTutorial.Address">
+      <void property="number">
+       <int>22</int>
+      </void>
+      <void property="street">
+       <string>Cook Street</string>
+      </void>
+      <void property="town">
+       <string>Palmerston North</string>
+      </void>
+     </object>
+    </void>
+    <void property="firstName">
+     <string>Walter</string>
+    </void>
+    <void property="name">
+     <string>Mueller</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="templatesTutorial.Person">
+    <void property="address">
+     <object class="templatesTutorial.Address">
+      <void property="number">
+       <int>12</int>
+      </void>
+      <void property="street">
+       <string>Albert Street</string>
+      </void>
+      <void property="town">
+       <string>Palmerston North</string>
+      </void>
+     </object>
+    </void>
+    <void property="firstName">
+     <string>Kate</string>
+    </void>
+    <void property="gender">
+     <object idref="Gender0"/>
+    </void>
+    <void property="name">
+     <string>Wang</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
